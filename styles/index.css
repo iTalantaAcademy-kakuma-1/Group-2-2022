@@ -1,1 +1,379 @@
 @import url("./something.css");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+}
+.logo {
+  width: 120px;
+  height: 120px;
+  float: left;
+}
+.navbar ul {
+  margin-left: 600px;
+  margin-top: 20px;
+}
+.navbar ul li {
+  float: left;
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+.navbar ul li a {
+  text-decoration: none;
+}
+.btn-nav {
+  background-color: #003399;
+  color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 11px;
+  border-style: none;
+}
+.brgimg {
+  margin-top: 80px;
+}
+.brgimg h1 {
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  top: 50%;
+  bottom: 50%;
+  position: absolute;
+  right: 40%;
+}
+.container {
+  display: flex;
+  margin-top: 80px;
+  width: 1100;
+}
+.container-image img {
+  width: 500px;
+  height: 350px;
+  margin-right: 50px;
+  float: right;
+}
+.container-text {
+  float: left;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.container-text p {
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: left;
+}
+.over-all {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  color: blue;
+}
+.our-impact h1,
+p {
+  text-align: center;
+}
+.our-impact p {
+  margin-top: 20px;
+  font-size: 25px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.our-impact {
+  margin-top: 100px;
+}
+
+.all-three-1 {
+  background-color: blue;
+  margin-right: 35px;
+}
+.all-three-2 {
+  background-color: blue;
+  margin-right: 35px;
+}
+.all-three-3 {
+  background-color: blue;
+}
+.all-three {
+  display: flex;
+  margin: 40px;
+}
+.all-three-1 h3 {
+  margin-left: 20px;
+  color: white;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.all-three-2 h3 {
+  margin-left: 20px;
+  color: white;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.all-three-3 h3 {
+  margin-left: 20px;
+  color: white;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.all-three-1 p {
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+}
+.all-three-2 p {
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+}
+.all-three-3 p {
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.first-two,
+.second-two {
+  display: flex;
+}
+.container-four h2,
+h3 {
+  color: blue;
+}
+.container-four {
+  margin: 60px;
+  background-color: rgb(248, 249, 252);
+  height: 700px;
+}
+.container-four h3 {
+  margin-top: 30px;
+}
+.image-comm,
+.image-diversity,
+.image-commit,
+.image-open {
+  margin-right: 70px;
+}
+
+.image-comm p {
+  margin-left: 0;
+  text-align: left;
+  margin-top: 20px;
+}
+.image-diversity p {
+  margin-left: 0;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.image-commit p {
+  margin-left: 0;
+  text-align: left;
+  margin-top: 20px;
+}
+.image-open p {
+  margin-left: 0;
+  text-align: left;
+  margin-top: 20px;
+}
+.second-two,
+.first-two {
+  margin-top: 45px;
+}
+.image-open,
+.image-diversity {
+  padding-left: 80px;
+}
+
+.core-values {
+  margin-left: 80px;
+  padding-top: 70px;
+}
+
+.cont-img-success {
+  margin-right: auto;
+  margin-left: auto;
+  width: 500px;
+  height: 450px;
+  max-width: 100%;
+  min-height: 500px;
+  box-sizing: border-box;
+  opacity: 1;
+  transition: all 0.3s ease 0s;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transform: none;
+  text-align: center;
+  box-shadow: rgb(0 0 0 / 8%) 0px 0px 53px;
+  padding: 50px;
+  margin-top: 40px;
+}
+.cont-img-success img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.cont-img-success h4,
+h5,
+p {
+  padding-top: 20px;
+}
+.container-stories,
+h2 h4 h5 {
+  text-align: center;
+}
+.container-stories {
+  margin-top: 150px;
+}
+
+.all-partners img {
+  width: 150px;
+  height: 100px;
+  margin-top: 55px;
+  margin-right: 25px;
+}
+.all-partners h1 {
+  padding-left: 35px;
+}
+.all-partners {
+  margin-left: 50px;
+  margin-top: 105px;
+}
+.support-developers {
+  display: flex;
+  background-color: rgb(248, 249, 252);
+  margin-top: 100px;
+  height: 350px;
+}
+.support-developers-1 h1 {
+  color: blue;
+  padding-right: 60px;
+}
+
+.support-developers-1 p {
+  padding-right: 60px;
+  margin-left: 0;
+}
+
+.support-developers-1 {
+  padding-left: 50px;
+  padding-top: 60px;
+  margin-right: 150px;
+}
+.support-developers-2 {
+  padding-left: 50px;
+  padding-top: 60px;
+  margin-right: 150px;
+  width: 900px;
+}
+.btn-donate {
+  background-color: #003399;
+  color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 11px;
+  border-style: none;
+}
+.cont-map {
+  display: flex;
+  margin-top: 100px;
+  background-color: rgb(248, 249, 252);
+  height: 800px;
+}
+.contact-form {
+  background-color: blue;
+  margin-right: 50px;
+  color: white;
+  padding-left: 60px;
+  height: 700px;
+}
+.contact-form h2 {
+  margin-top: 60px;
+}
+.contact-form textarea {
+  background-color: blue;
+  border-color: white;
+  color: white;
+  font-size: 14px;
+}
+.contact-form textarea:focus {
+  outline: none;
+}
+.contact-form input {
+  background-color: blue;
+  border-color: white;
+  width: 400px;
+  height: 30px;
+  color: white;
+  font-size: 14px;
+}
+.contact-form input:focus {
+  outline: none;
+}
+.map-background {
+  height: 700px;
+  background-color: rgb(167, 169, 173);
+}
+.map {
+  margin-top: 100px;
+}
+.contact-form p {
+  margin-right: 200px;
+  font-size: 20px;
+  text-align: left;
+}
+.btn-send {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.footer-class h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: blue;
+}
+.footer-class {
+  margin-top: 60px;
+  height: 250px;
+}
+.footer-class a {
+  text-decoration: none;
+  color: black;
+}
+.a-class {
+  align-items: center;
+  text-align: center;
+}
+.media-icon img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.media-icon {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 15px;
+}
+@media (max-width: 700px) {
+  p {
+    font-size: 20px;
+  }
+}
